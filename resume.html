@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>個人履歷 - 亞洲大學</title>
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      background: #eef2f7;
+      margin: 0;
+      padding: 20px;
+    }
+    .resume-container {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .info {
+      margin: 20px 0;
+    }
+    .info p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .highlight {
+      color: #3498db;
+      font-weight: bold;
+    }
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <h1>個人履歷</h1>
+    <div class="info">
+      <p>姓名：<span class="highlight">Jenny</span></p>
+      <p>學校：亞洲大學</p>
+      <p>學號：<span class="highlight">113024023</span></p>
+      <p>專業技能：HTML、CSS、JavaScript</p>
+    </div>
+    <button onclick="showMessage()">點我打招呼</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("你好！我是亞洲大學學生，學號 113024023，很高興認識你！");
+    }
+  </script>
+</body>
+</html>
