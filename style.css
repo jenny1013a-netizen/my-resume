@@ -1,60 +1,40 @@
 body {
-  background-color: #ffeef3;
-  font-family: "微軟正黑體", sans-serif;
-  margin: 0;
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-}
-body {
-  background-color: pink;
   font-family: "Microsoft JhengHei", sans-serif;
-}
-h1 {
-  color: #d63384;
+  background-color: #fce4ec; /* 粉色背景 */
+  margin: 0;
+  padding: 0;
 }
 
-.card {
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  max-width: 500px;
+.resume {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
   text-align: center;
 }
 
 .avatar {
-  width: 80px
-  height: 80px
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
-  border: 3px solid #e91e63;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border: 3px solid #e91e63; /* 粉色邊框 */
+  margin-bottom: 15px;
 }
 
 h1 {
   color: #e91e63;
-  margin-bottom: 5px;
-}
-
-.subtitle {
-  color: #777;
-  font-size: 14px;
-  margin: 2px 0;
+  margin: 10px 0;
 }
 
 h2 {
-  color: #e91e63;
-  margin-top: 30px;
+  color: #333;
+  margin-top: 20px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
+p {
   color: #555;
   margin: 5px 0;
 }
@@ -62,4 +42,14 @@ li {
 a {
   color: #e91e63;
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: #555;
+  margin: 5px 0;
 }
