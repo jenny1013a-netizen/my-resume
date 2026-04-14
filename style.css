@@ -24,7 +24,7 @@ body {
   top: 0;
   bottom: 0;
   width: 25px;
-  background: radial-gradient(circle at 12px 15px, #999 3px, transparent 4px);
+  background: radial-gradient(circle at 12px 15px, #212020 3px, transparent 4px);
   background-size: 25px 30px;
 }
 
