@@ -96,3 +96,15 @@ li {
   margin: 8px 0;
   color: #444;
 }
+
+two-column {
+  display: flex;
+  gap: 40px;
+}
+
+two-column section {
+  flex: 1;
+  background: #fff8fb;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
