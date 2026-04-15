@@ -31,7 +31,9 @@ body {
   top: 0;
   bottom: 0;
   width: 40px;
-  background: radial-gradient(circle at 20px 20px, #ddd 6px, transparent 7px);
+
+  background: radial-gradient(circle at 20px 20px, white 8px, transparent 9px);
+  background-color: #ccc;   /* 灰底 */
   background-size: 40px 45px;
 }
 
