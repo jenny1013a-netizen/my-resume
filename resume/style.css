@@ -98,8 +98,8 @@ li {
 }
 
 two-column {
-  display: flex;
-  gap: 40px;
+  display: flex !important;
+  flex-direction: row !important;
 }
 
 two-column section {
