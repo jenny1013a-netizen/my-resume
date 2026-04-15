@@ -97,12 +97,12 @@ li {
   color: #444;
 }
 
-two-column {
+.two-column {
   display: flex !important;
   flex-direction: row !important;
 }
 
-two-column section {
+.two-column section {
   flex: 1;
   background: #fff8fb;
   padding: 10px 15px;
