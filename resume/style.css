@@ -25,7 +25,7 @@ body {
 
 /* 左邊打洞 */
 .resume::before {
-  content: "";
+  content: "TEST";
   position: absolute;
   left: -30px;
   top: 0;
