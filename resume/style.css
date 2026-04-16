@@ -19,7 +19,6 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   position: relative;
   border-radius: 10px;
-
   transform: rotate(-1deg);
 }
 
@@ -35,7 +34,7 @@ body {
   background-size: 40px 45px;
 }
 
-/* 紅色直線 */
+/* 紅線 */
 .resume::after {
   content: "";
   position: absolute;
@@ -55,8 +54,8 @@ body {
 
 /* 頭像 */
 .avatar {
-  width: 140px;
-  height: 140px;
+  width: 120px;   /* 🔧 控制大小 */
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   border: 5px solid #e91e63;
@@ -75,7 +74,7 @@ body {
   color: #555;
 }
 
-/* 區塊標題（便利貼） */
+/* 標題 */
 section h2 {
   display: inline-block;
   background-color: #ffd1dc;
@@ -97,14 +96,26 @@ li {
   color: #444;
 }
 
-two-column {
+/* 兩欄 */
+.two-column {
   display: flex;
   gap: 40px;
 }
 
-two-column section {
+.two-column section {
   flex: 1;
   background: #fff8fb;
   padding: 10px 15px;
   border-radius: 8px;
+}
+
+/* 按鈕 */
+.play-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
