@@ -1,110 +1,71 @@
 body {
   font-family: "Microsoft JhengHei", sans-serif;
-  background-color: #fefafc;
+  background-color: #facfde; /* 粉色背景 */
   margin: 0;
   padding: 0;
 }
 
-/* 主體 */
 .resume {
-  width: 850px;
-  margin: 60px auto;
-  padding: 50px 60px;
-  background: repeating-linear-gradient(
-    #fff,
-    #fff 28px,
-    #eaeaea 29px
-  );
-  border-left: 14px solid #ddd;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  position: relative;
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
   border-radius: 10px;
-  transform: rotate(-1deg);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
 }
 
-/* 左邊打洞 */
-.resume::before {
-  content: "";
-  position: absolute;
-  left: -40px;
-  top: 0;
-  bottom: 0;
-  width: 40px;
-  background: radial-gradient(circle at 20px 20px, #ddd 6px, transparent 7px);
-  background-size: 40px 45px;
-}
-
-/* 紅線 */
-.resume::after {
-  content: "";
-  position: absolute;
-  left: 50px;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: #ff6b6b;
-}
-
-/* 頭像區 */
-.resume-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-/* 頭像 */
 .avatar {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #e91e63;
-  margin-right: 25px;
+  border: 3px solid #e91e63; /* 粉色邊框 */
+  margin: 0 auto; /* 置中 */
 }
 
-/* 文字 */
-.resume-info h1 {
-  margin: 0;
-  font-size: 28px;
+h1 {
+  color: #e91e63;
+  margin: 10px 0;
+}
+
+h2 {
   color: #333;
+  margin-top: 20px;
 }
 
-.resume-info p {
-  margin: 5px 0;
+p {
   color: #555;
+  margin: 5px 0;
 }
 
-/* 標題 */
-section h2 {
-  display: inline-block;
-  background-color: #ffd1dc;
-  padding: 6px 12px;
-  border-radius: 6px;
-  margin-top: 30px;
-  font-size: 20px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+a {
+  color: #e91e63;
+  text-decoration: none;
 }
 
-/* 清單 */
 ul {
-  list-style: none;
-  padding-left: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-  margin: 8px 0;
-  color: #444;
+  color: #555;
+  margin: 5px 0;
+}
+.play-btn {
+  background-color: #dc1255; /* 粉色 */
+  color: #f0a6c1;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
 }
 
-/* 兩欄 */
-.two-column {
-  display: flex;
-  gap: 40px;
-}
-
-.two-column section {
-  flex: 1;
-  background: #fff8fb;
-  padding: 10px 15px;
-  border-radius: 8px;
+.play-btn:hover {
+  background-color: #d81b60; /* 深粉色 hover 效果 */
 }
