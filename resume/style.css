@@ -15,7 +15,7 @@ body {
     #fff 28px,
     #eaeaea 29px
   );
-  border-left: 14px solid #5a1d03;
+  border-left: 14px solid #ddd;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   position: relative;
   border-radius: 10px;
@@ -25,16 +25,14 @@ body {
 
 /* 左邊打洞 */
 .resume::before {
-  content: "TEST";
+  content: "";
   position: absolute;
-  left: -30px;
+  left: -40px;
   top: 0;
   bottom: 0;
-  width: 30px;
-
-  background: radial-gradient(circle at 20px 20px, white 8px, transparent 9px);
-  background-color: #ccc;   /* 灰底 */
-  background-size: 30px 40px;
+  width: 40px;
+  background: radial-gradient(circle at 20px 20px, #ddd 6px, transparent 7px);
+  background-size: 40px 45px;
 }
 
 /* 紅色直線 */
@@ -99,12 +97,12 @@ li {
   color: #444;
 }
 
-.two-column {
-  display: flex !important;
-  flex-direction: row !important;
+two-column {
+  display: flex;
+  gap: 40px;
 }
 
-.two-column section {
+two-column section {
   flex: 1;
   background: #fff8fb;
   padding: 10px 15px;
