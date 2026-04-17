@@ -1,18 +1,25 @@
 body {
   font-family: "Microsoft JhengHei", sans-serif;
-  background-color: #facfde; /* 粉色背景 */
+  background: linear-gradient(135deg, #facfde, #f8bbd0);
   margin: 0;
-  padding: 0;
 }
 
-.resume {
-  max-width: 600px;
+/* 整體排版 */
+.container {
+  display: flex;
+  max-width: 1000px;
   margin: 50px auto;
+  gap: 20px;
+}
+
+/* 左側 */
+.left {
+  width: 30%;
   background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 20px;
+  border-radius: 15px;
   text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .avatar {
@@ -20,52 +27,33 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #e91e63; /* 粉色邊框 */
-  margin: 0 auto; /* 置中 */
+  margin-bottom: 10px;
 }
 
+/* 右側 */
+.right {
+  width: 70%;
+}
+
+/* 卡片 */
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 標題 */
 h1 {
   color: #e91e63;
-  margin: 10px 0;
 }
 
 h2 {
-  color: #333;
+  border-left: 5px solid #e91e63;
+  padding-left: 10px;
+}
+
+.section {
   margin-top: 20px;
-}
-
-p {
-  color: #555;
-  margin: 5px 0;
-}
-
-a {
-  color: #e91e63;
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  color: #555;
-  margin: 5px 0;
-}
-.play-btn {
-  background-color: #dc1255; /* 粉色 */
-  color: #f0a6c1;
-  border: none;
-  border-radius: 30px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: background 0.3s ease;
-}
-
-.play-btn:hover {
-  background-color: #d81b60; /* 深粉色 hover 效果 */
 }
